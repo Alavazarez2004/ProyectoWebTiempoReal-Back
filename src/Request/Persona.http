@@ -1,0 +1,16 @@
+###
+POST http://localhost:3000/api_socket/Persona/crearPersona HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre":"Miguel Angel",
+    "categoria":"Alumno"
+}
+
+###
+GET http://localhost:3000/api_socket/Persona/conseguirPersona HTTP/1.1
+Content-Type: application/json
+
+###
+GET http://localhost:3000/api_socket/Persona/ObtenerPersonaNueva HTTP/1.1
+Content-Type: application/json
